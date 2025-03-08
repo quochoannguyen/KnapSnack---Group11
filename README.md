@@ -46,7 +46,7 @@ Lấy giá trị lớn nhất giữa hai lựa chọn trên.
 Điều kiện dừng của đệ quy:
 Nếu không còn vật phẩm nào (n = 0) hoặc trọng lượng tối đa bằng 0 (W = 0), trả về 0.
 
----
+
 int knap(vector<int> &weight, vector<int> &value, int capacity, int n){
     if (n == 0 || capacity == 0){ 
         return 0;
@@ -58,7 +58,7 @@ int knap(vector<int> &weight, vector<int> &value, int capacity, int n){
     int nChoose = knap(weight, value, capacity, n-1);
     return max(choose, nChoose);
 }
----
+
 
 ## 4. Ví dụ minh hoạ
 ### Ví dụ 1
