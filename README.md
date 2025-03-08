@@ -46,18 +46,15 @@ Lấy giá trị lớn nhất giữa hai lựa chọn trên.
 Điều kiện dừng của đệ quy:
 Nếu không còn vật phẩm nào (n = 0) hoặc trọng lượng tối đa bằng 0 (W = 0), trả về 0.
 
-
-int knap(vector<int> &weight, vector<int> &value, int capacity, int n){
-    if (n == 0 || capacity == 0){ 
-        return 0;
-    }
-    if (weight[n-1] > capacity){
-        return knap(weight, value, capacity, n-1);
-    }
-    int choose = knap(weight, value, capacity - weight[n-1], n-1) + value[n-1];
-    int nChoose = knap(weight, value, capacity, n-1);
-    return max(choose, nChoose);
-}
+function knapsack_recursive(n, W, w[], v[]):
+    if n == 0 or W == 0:
+        return 0
+    if w[n-1] > W: // Không thể chọn vật phẩm cuối cùng
+        return knapsack_recursive(n-1, W, w, v)
+    else:
+        // Chọn tối đa giữa không chọn và chọn vật phẩm cuối
+        return max(knapsack_recursive(n-1, W, w, v), 
+                   v[n-1] + knapsack_recursive(n-1, W - w[n-1], w, v))
 
 
 ## 4. Ví dụ minh hoạ
