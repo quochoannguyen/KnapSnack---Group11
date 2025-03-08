@@ -3,9 +3,9 @@
 ## 1. Thông tin nhóm
 | STT | Họ và tên | MSSV | Vai trò |
 |---|---|---|---|
-| 1 | Bùi Chí Tiến | 24022837 | Thành viên |
+| 1 | Bùi Chí Tiến | 24022837 | Nhóm trưởng |
 | 2 | Đặng Thế Đạt | 24022772 | Thành viên |
-| 3 | Nguyễn Quốc Hoàn | 24020135 | Nhóm trưởng |
+| 3 | Nguyễn Quốc Hoàn | 24020135 | Thành viên |
 | 4 | Nguyễn Thái An | 24022761 | Thành viên |
 | 5 | Bùi Thanh Sơn | 24022828 | Thành viên |
 
