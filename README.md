@@ -114,5 +114,11 @@ Tổng giá trị tối đa: 120.
 2. Lấy max(120, 80) = 120.  
 => Kết quả: Chọn vật phẩm 1 (trọng lượng 12, giá trị 120).
 
+## 5. Link video báo cáo
+[Video báo cáo nhóm X](#)
 
+---
+
+## 6. Link source code
+[Thư mục src](./src/Knapsnack.cpp)
 
