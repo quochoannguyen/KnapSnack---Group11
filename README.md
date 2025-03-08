@@ -115,8 +115,8 @@ Tổng giá trị tối đa: 120.
 => Kết quả: Chọn vật phẩm 1 (trọng lượng 12, giá trị 120).
 
 ## 5. Link video báo cáo
-[Video báo cáo nhóm X](#)
-
+[Video báo cáo nhóm X]
+https://drive.google.com/drive/folders/1IbeUnF1hkHs7TB6OTYQf71fuvN3R5cXg
 ---
 
 ## 6. Link source code
